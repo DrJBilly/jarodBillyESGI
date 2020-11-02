@@ -8,12 +8,18 @@ p {
     font-size: 25px;
 } 
 
+h2 {
+    /* margin-left: 7rem;
+    margin-bottom: 2rem; */
+    text-decoration: underline;
+}
+
 .header { /* zone de text header */
     margin-top: 3rem;
     margin-bottom: 5rem;
 }
 
-.accueil {/* bouton */
+.accueil {/* boutonv page d'accueil */
     border: none;
     border-radius: 17px;
     height: 6rem;
@@ -25,7 +31,7 @@ p {
     box-shadow: 0 15px 30px rgba(0,0,0,.5);
 }
 
-.contact {/* bouton */
+.contact {/* bouton page contact */
     border: none;
     border-radius: 17px;
     height: 6rem;

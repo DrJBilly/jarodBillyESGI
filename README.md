@@ -1,2 +1,2 @@
 # jarodBillyESGI
-Reposite for school
+Repository for school
