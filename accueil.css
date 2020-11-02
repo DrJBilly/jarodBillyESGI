@@ -1,0 +1,110 @@
+body {
+    font-family: "Raleway";
+    /* police d'écriture*/
+    background-color: whitesmoke;
+}
+
+p {
+    font-size: 25px
+}
+
+h2 {
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.alinea {
+    text-indent: 50px;
+    margin-left: 7rem;
+}
+
+.button { /* bouton */
+    border: none;
+    border-radius: 17px;
+    height: 8rem;
+    width: 8rem;
+    margin-top: 6rem;
+    margin-left: 9rem;
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+    
+}
+
+.button:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    transform: scale(.95);
+}
+
+/* background des bouton*/
+.contact {
+    background-image: url("iconcontacts.png") !important;
+    background-size: cover;
+}
+
+.projet {
+    background-image: url("icons8-brain-100.png") !important;
+    background-size: cover;
+}
+
+.linkedin {
+    background-image: url("iconlinkedin452x452.png") !important;
+    background-size: cover;
+}
+    
+.creation {
+    background-image: url("iconhtml512x512.png") !important;
+    background-size: cover;
+}
+
+/* image de 800 x 800 */  
+#img { 
+    float: right ;
+    height: 224.75px;
+    width: 224.75px;
+    background-image: url("htmlimage.png") !important;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-right: 5em;
+}
+
+#img:hover {
+    transform: scale(1.28);
+}
+
+.progress { /*progress-bar*/
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 5px 5px rgba(199, 193, 193, 0.767);
+    width: 75%;
+}
+
+.progress:hover {
+    transform: scale(1.28);
+}
+
+hr { /* trait séparateur */
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width:70%;
+    text-align:center;
+}
+
+.hr { /* .hr du footer*/
+    width: 100%;
+}
+
+.footer { /* p du footer*/
+    margin-bottom: 3rem;
+}
+
+footer {
+    position: relative;
+    padding-top: 3px;
+    text-align: center;
+    /* position: fixed;  */
+    bottom: 0;
+    height:50px;
+    width: 100%;
+} 
+
+/* background-color: rgba(199, 193, 193, 0.767) */

@@ -1,0 +1,105 @@
+body {
+    font-family: "Raleway";
+    /* police d'écriture*/
+    background-color: whitesmoke;
+}
+
+p {
+    font-size: 25px;
+} 
+
+.header { /* zone de text header */
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.accueil {/* bouton */
+    border: none;
+    border-radius: 17px;
+    height: 6rem;
+    width: 6rem;
+    background-image: url("icons8-home-page-100.png") !important;
+    background-size: cover;
+    /* margin-top: 2rem; */
+    margin-left: 4.4rem;
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.contact {/* bouton */
+    border: none;
+    border-radius: 17px;
+    height: 6rem;
+    width: 6rem;
+    background-image: url("iconcontacts.png") !important;
+    background-size: cover;
+    /* margin-top: 2rem; */
+    margin-left: 4.4rem;
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.button:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    transform: scale(.95);
+}
+
+.text { /* zone de text de l'image 1 et 3 */
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.text2 { /* Zone de text de l'image 2 et 4 */
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+img { /* position des images */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80% !important;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.img2 { /* image 2 */
+    width: 60%; /*largeur*/
+    height: 40%;
+}
+
+.img3 { /* image 3 */
+    height: 60%;
+}
+
+hr { /* trait séparateur */
+    margin-top: 2rem;
+    width:85%;
+    text-align:center;
+}
+
+.hrcontainer { /* trait séparateur entre le container */
+    margin-top: 5rem;
+}
+
+.hr { /* .hr du footer*/
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.footer { /* .class du p du footer*/
+    margin-bottom: 3rem;
+}
+
+footer {
+    position: relative;
+    padding-top: 3px;
+    text-align: center;
+    /* position: fixed;  */
+    bottom: 0;
+    height:50px;
+    width: 100%;
+} 
+
