@@ -39,9 +39,9 @@ p {
 /* Zone de text du formulaire */
 input[type=text], textarea {
     width: 100%;
+    padding: 6px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-top: 6px;
 }
 
 /*bouton du formulaire*/
@@ -59,6 +59,8 @@ input[type=submit]:hover {
 
 label { /* NOM ,PRENOM, E-MAIL */
     font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .hr { /* .hr du footer*/
