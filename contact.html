@@ -25,13 +25,21 @@
                     complet, je n'ai pas encore intrégré de fichier javascript pour récupérer les données.</p>
             </div>
             <div class="col-10"> <!-- Block du formulaire de contact -->
-                <form action="test.php" method="GET" id="formulaire">
-                    <p>Nom : <input type="text" name="nom" id="nom" /></p>
-                    <p>Prénom : <input type="text" name="prenom" id="prenom" /></p>
-                    <p>Courriel : <input type="text" name="email" id="email" /></p>
-                    <p>Petit message ? :) <textarea name="message" placeholder="N'hésitez pas me laisser un message."
-                            rows="10" cols="100" id="textarea"></textarea></p>
-                    <p><input type="submit" value="Soumettre" /></p>
+                <form action="test.php" method="POST" target="_blank" id="formulaire">
+                    <label for="nom">Nom : </label>
+                    <input type="text" name="nom" id="nom" />
+                    <span id="erreur"></span>
+
+                    <label for="prenom">Prenom : </label>
+                    <input type="text" name="prenom" id="prenom" />
+
+                    <label for="email">Email : </label>
+                    <input type="text" name="email" id="email" />
+
+                    <label for="message">Petit message ? :) </label>
+                    <textarea name="message" placeholder="N'hésitez pas me laisser un message." rows="15" cols="100" id="textarea"></textarea>
+
+                    <input type="submit" value="Soumettre" />
                 </form>
             </div>
         </div>
