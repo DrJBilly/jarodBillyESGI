@@ -35,7 +35,7 @@ h2 {
     transform: scale(.95);
 }
 
-/* background des bouton*/
+/* background des boutons*/
 .contact {
     background-image: url("iconcontacts.png") !important;
     background-size: cover;
