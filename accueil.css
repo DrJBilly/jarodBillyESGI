@@ -5,11 +5,11 @@ body {
 }
 
 p {
-    font-size: 25px
+    font-size: 25px;
 }
 
 h2 {
-    margin-left: 7rem;
+    margin-left: 5rem;
     margin-bottom: 2rem;
     text-decoration: underline;
 }
@@ -24,8 +24,8 @@ h2 {
     border-radius: 17px;
     height: 8rem;
     width: 8rem;
-    margin-top: 6rem;
-    margin-left: 9rem;
+    margin-top: auto;
+    margin-left: auto;
     box-shadow: 0 15px 30px rgba(0,0,0,.5);
     
 }
@@ -33,11 +33,22 @@ h2 {
 .button:hover {
     box-shadow: 0 5px 10px rgba(0,0,0,.5);
     transform: scale(.95);
+    border-radius: 17px;
 }
+
+.col-2 {
+    margin-top: 6rem;
+    
+}
+
+.col-4 {
+    margin-top: 3rem;
+}
+
 
 /* background des boutons*/
 .contact {
-    background-image: url("iconcontacts.png") !important;
+    background-image: url("iconemail400x400.png") !important;
     background-size: cover;
 }
 
@@ -58,14 +69,18 @@ h2 {
 
 /* image de 800 x 800 */  
 #img { 
-    float: right ;
-    height: 224.75px;
-    width: 224.75px;
+    display: block;
+    /* float: right ; */
+    /* height: 224.75px;
+    width: 224.75px; */
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
     background-image: url("htmlimage.png") !important;
     background-size: cover;
     border-radius: 10px;
-    margin-top: 3rem;
-    margin-right: 5em;
+    /* margin-right: 5em; */
 }
 
 #img:hover {
