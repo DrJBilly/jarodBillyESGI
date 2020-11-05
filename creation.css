@@ -16,6 +16,7 @@ p {
     margin-left: 3rem;
 }
 
+
 .entete {
     margin-top: 15px !important;
     margin-bottom: 10px !important;
@@ -36,6 +37,11 @@ h2 {
     /* margin-left: 7rem;
     margin-bottom: 2rem; */
     text-decoration: underline;
+}
+
+.titre {
+    margin-top: 1rem;
+    margin-left: 7rem;
 }
 
 .header {
@@ -101,10 +107,6 @@ img:hover {
     transform: scale(1.1);
 }
 
-.middle {
-    margin-top: 5rem;
-}
-
 .menu {
     width: 95%;
     border-radius: 8px;
@@ -139,7 +141,8 @@ img:hover {
 }
 
 .text {
-    margin-left: 2rem !important;
+    font-size: 20px;
+    margin-left: 2rem;
 }
 
 .closed a {
@@ -158,11 +161,6 @@ img:hover {
     max-height: 100%;
 }
 
-.hrcontainer {
-    /* trait séparateur entre le container */
-    margin-top: 5rem;
-}
-
 hr {
     /* trait séparateur */
     /* margin-top: 2rem; */
@@ -171,11 +169,12 @@ hr {
 }
 
 .hrcontainer {
-    /* trait séparateur entre le container */
-    margin-top: 5rem;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
-.hr {
+.hrfooter {
     /* .hr du footer*/
     width: 100%;
     margin-top: 5rem;
