@@ -40,7 +40,7 @@ h2 {
 }
 
 .titre {
-    margin-top: 1rem;
+    margin-bottom: 2rem;
     margin-left: 7rem;
 }
 
@@ -56,7 +56,7 @@ h2 {
     border-radius: 17px;
     height: 6rem;
     width: 6rem;
-    background-image: url("icons8-home-page-100.png") !important;
+    background-image: url("./IMAGES/icon_home_2.png") !important;
     background-size: cover;
     /* margin-top: 2rem; */
     margin-left: 4.4rem;
@@ -69,7 +69,7 @@ h2 {
     border-radius: 17px;
     height: 6rem;
     width: 6rem;
-    background-image: url("iconemail400x400.png") !important;
+    background-image: url("./IMAGES/icon_email.png") !important;
     background-size: cover;
     /* margin-top: 2rem; */
     margin-left: 4.4rem;
@@ -82,7 +82,7 @@ h2 {
     border-radius: 8px;
     height: 3rem;
     width: 3rem;
-    background-image: url("icons8-close-sign-100.png") !important;
+    background-image: url("./IMAGES/icons_close.png") !important;
     background-size: cover;
     margin: 2rem 0 1.5rem 2rem;
     box-shadow: 0 7.5px 20px rgba(0, 0, 0, .5);
@@ -146,7 +146,7 @@ img:hover {
 }
 
 .closed a {
-    background-image: url("icons8-close-sign-100.png") !important;
+    /* background-image: url("IMAGES/icons_close.png") !important; */
     background-size: cover;
     color: black;
 }

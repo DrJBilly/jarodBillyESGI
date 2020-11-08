@@ -19,56 +19,85 @@ h2 {
     margin-left: 7rem;
 }
 
-.button { /* bouton */
+.button {
+    /* bouton */
     border: none;
     border-radius: 17px;
     height: 8rem;
     width: 8rem;
     margin-top: auto;
     margin-left: auto;
-    box-shadow: 0 15px 30px rgba(0,0,0,.5);
-    
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
 }
 
 .button:hover {
-    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
     transform: scale(.95);
-    border-radius: 17px;
 }
 
-.col-2 {
+.minibutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 7px;
+    height: 2.5rem;
+    width: 2.5rem;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+}
+
+.minibutton:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    transform: scale(.95);
+}
+
+#button {
     margin-top: 6rem;
-    
+}
+
+#minibutton {
+    margin-left: 8rem;
 }
 
 .col-4 {
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
-
 /* background des boutons*/
+
 .contact {
-    background-image: url("iconemail400x400.png") !important;
+    background-image: url("./IMAGES/icon_email.png") !important;
     background-size: cover;
 }
 
 .projet {
-    background-image: url("icons8-brain-100.png") !important;
+    background-image: url("./IMAGES/icon_projet_2.png") !important;
     background-size: cover;
 }
 
 .linkedin {
-    background-image: url("iconlinkedin452x452.png") !important;
-    background-size: cover;
-}
-    
-.creation {
-    background-image: url("iconhtml512x512.png") !important;
+    background-image: url("./IMAGES/icon_linkedin.png") !important;
     background-size: cover;
 }
 
-/* image de 800 x 800 */  
-#img { 
+.creation {
+    background-image: url("./IMAGES/icon_laptop_coding.png") !important;
+    background-size: cover;
+}
+
+.cv {
+    background-image: url("./IMAGES/petite_icon_cv.png") !important;
+    background-size: cover;
+}
+
+.github {
+    background-image: url("./IMAGES/petite_icon_github.png") !important;
+    background-size: cover;
+}
+
+/* image de 800 x 800 */
+
+#img {
     display: block;
     /* float: right ; */
     /* height: 224.75px;
@@ -77,7 +106,6 @@ h2 {
     margin-right: auto;
     height: auto;
     width: auto;
-    background-image: url("htmlimage.png") !important;
     background-size: cover;
     border-radius: 10px;
     /* margin-right: 5em; */
@@ -87,7 +115,8 @@ h2 {
     transform: scale(1.28);
 }
 
-.progress { /*progress-bar*/
+.progress {
+    /*progress-bar*/
     margin-bottom: 2rem;
     box-shadow: 2px 2px 5px 5px rgba(199, 193, 193, 0.767);
     width: 75%;
@@ -97,18 +126,21 @@ h2 {
     transform: scale(1.28);
 }
 
-hr { /* trait séparateur */
+hr {
+    /* trait séparateur */
     margin-top: 2rem;
     margin-bottom: 3rem;
-    width:70%;
-    text-align:center;
+    width: 70%;
+    text-align: center;
 }
 
-.hr { /* .hr du footer*/
+.hr {
+    /* .hr du footer*/
     width: 100%;
 }
 
-.footer { /* p du footer*/
+.footer {
+    /* p du footer*/
     margin-bottom: 3rem;
 }
 
@@ -118,8 +150,8 @@ footer {
     text-align: center;
     /* position: fixed;  */
     bottom: 0;
-    height:50px;
+    height: 50px;
     width: 100%;
-} 
+}
 
 /* background-color: rgba(199, 193, 193, 0.767) */

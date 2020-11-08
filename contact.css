@@ -12,8 +12,10 @@ p {
     border: 1px solid;
     border-radius: 5px;
     margin-left: 1rem;
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     padding-left: 7px;
+    position: relative;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,.5);
 }
 
 .container-fluid {
@@ -25,7 +27,7 @@ p {
     border-radius: 17px;
     height: 6rem;
     width: 6rem;
-    background-image: url("icons8-home-page-100.png") !important;
+    background-image: url("IMAGES/icon_home_2.png") !important;
     background-size: cover;
     margin-left: 4.4rem;
     box-shadow: 0 15px 30px rgba(0,0,0,.5);
@@ -34,6 +36,30 @@ p {
 .button:hover {
     box-shadow: 0 5px 10px rgba(0,0,0,.5);
     transform: scale(.95);
+}
+
+.minibutton {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border: none;
+    border-radius: 7px;
+    height: 2.5rem;
+    width: 2.5rem;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+}
+
+.minibutton:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    transform: scale(.95);
+}
+
+.cv {
+    background-image: url("./IMAGES/petite_icon_cv.png") !important;
+    background-size: cover;
 }
 
 /* Zone de text du formulaire */

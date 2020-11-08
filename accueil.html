@@ -15,31 +15,42 @@
 </head>
 
 <body>
-    
-    <div class="container"> <!-- bouton pojet / bouton contact / linkedin / Mes créations -->
+
+    <div class="container">
+        <!-- bouton pojet / bouton contact / linkedin / Mes créations -->
         <div class="row">
-            <div class="col-2">
+            <div class="col-2" id="button">
                 <button onclick="window.location.href= 'contact.html';" class="button contact"></button>
             </div>
-            <div class="col-2">
+            <div class="col-2" id="button">
                 <button onclick="window.location.href= 'projet.html';" class="button projet" id=""></button>
             </div>
-            <div class="col-2">
-                <a href="https://www.linkedin.com/in/jarod-billy-b73490190/" target="_blank"><button class="button linkedin" id=""></button></a>
-                
+            <div class="col-2" id="button">
+                <a href="https://www.linkedin.com/in/jarod-billy-b73490190/" target="_blank"><button
+                        class="button linkedin" id=""></button></a>
+
             </div>
-            <div class="col-2 testbutton">
+            <div class="col-2" id="button">
                 <button onclick="window.location.href= 'creation.html';" class="button creation" id=""></button>
             </div>
             <div class="col-4">
-                <img class="img-responsive" src="htmlimage.png" id="img" alt="image">
+                <img class="img-responsive" src="./IMAGES/image_html.png" id="img" alt="image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2" id="minibutton">
+                <a href="cv_billy_jarod.pdf" target="_blank"><button class="minibutton cv" id=""></button></a>
+            </div>
+            <div class="col-2" id="minibutton">
+                <a href="https://github.com/DrJBilly/jarodBillyESGI" target="_blank"><button class="minibutton github" id=""></button></a>
             </div>
         </div>
     </div>
 
     <hr>
 
-    <div><!-- message de présentation personnelle -->
+    <div>
+        <!-- message de présentation personnelle -->
         <h2>Présentation</h2>
         <p class="alinea">Qui suis-je ? Je m'appelle Jarod BILLY et j'ai 22 ans. Je vis à Avignon et je suis étudiant au
             campus ESGI <br> d'Aix-en-Provence. <br> <br>
@@ -60,19 +71,20 @@
 
     <hr>
 
-    <div><!-- block des compétence affiché avec des 'progress bar' en % -->
+    <div>
+        <!-- block des compétence affiché avec des 'progress bar' en % -->
         <h2>Compétences</h2>
         <div class="container">
             <div class="row ">
                 <div class="col-6">
-                    <p>HTML/BOOTSTRAP</p> <!-- Progress bar 'HTML/BOOTSTRAP' 'CSS' 'GitHub' 'JavaScript' -->
+                    <p>HTML</p> <!-- Progress bar 'HTML' 'CSS' 'GitHub' 'JavaScript' -->
                     <div class="progress">
                         <div class="progress-bar bg-dark" style="width:25%"></div>
                     </div>
                 </div>
 
                 <div class="col-6">
-                    <p>CSS</p> 
+                    <p>CSS</p>
                     <div class="progress">
                         <div class="progress-bar bg-dark" style="width:25%"></div>
                     </div>
@@ -80,14 +92,14 @@
             </div>
             <div class="row ">
                 <div class="col-6">
-                    <p>GitHub</p> 
+                    <p>GitHub</p>
                     <div class="progress">
                         <div class="progress-bar bg-dark" style="width:10%"></div>
                     </div>
                 </div>
 
                 <div class="col-6">
-                    <p>JavaScript</p> 
+                    <p>JavaScript</p>
                     <div class="progress">
                         <div class="progress-bar bg-dark" style="width:10%"></div>
                     </div>
@@ -97,10 +109,10 @@
     </div>
 </body>
 
-<FOOter> <!-- Pied de page -->
+<FOOter>
+    <!-- Pied de page -->
     <hr class="hr">
     <p class="footer">Author: BILLY Jarod</p>
-    ajouter un bouton GitHub dans le footer
 </FOOter>
 
 </html>
