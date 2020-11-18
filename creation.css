@@ -11,73 +11,64 @@ p {
     font-size: 25px;
 }
 
-.alinea {
-    /* text-indent: 50px; */
-    margin-left: 3rem;
-}
-
-
-.entete {
-    margin-top: 15px !important;
-    margin-bottom: 10px !important;
-    color: black;
-    text-decoration: none;
-    background-color: rgb(204, 180, 180) !important;
-    border-left: 5px solid #111;
-    border-radius: 5px;
-    padding: 15px 300px 15px 6px;
-}
-
-.entete:hover {
-    color: black;
-    text-decoration: none;
-}
-
 h2 {
-    /* margin-left: 7rem;
-    margin-bottom: 2rem; */
+    margin-bottom: 2rem;
     text-decoration: underline;
 }
 
 .titre {
     margin-bottom: 2rem;
-    margin-left: 7rem;
+    margin-left: 12rem;
+}
+
+.container-fluid {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
     /* zone de text header */
     margin-top: 3rem;
-    margin-bottom: 5rem;
+}
+
+.divshadow {
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .5);
 }
 
 .accueil {
     /* boutonv page d'accueil */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
     border-radius: 17px;
     height: 6rem;
     width: 6rem;
     background-image: url("./IMAGES/icon_home_2.png") !important;
     background-size: cover;
-    /* margin-top: 2rem; */
-    margin-left: 4.4rem;
     box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
 }
 
 .contact {
     /* bouton page contact */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
     border-radius: 17px;
     height: 6rem;
     width: 6rem;
     background-image: url("./IMAGES/icon_email.png") !important;
     background-size: cover;
-    /* margin-top: 2rem; */
-    margin-left: 4.4rem;
     box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
 }
 
 .closed {
     /* bouton page contact */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
     border-radius: 8px;
     height: 3rem;
@@ -93,24 +84,30 @@ h2 {
     transform: scale(.95);
 }
 
-img {
-    /* position des images */
-    display: block;
+/* position des images html */
+.positionimg {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3px;
-    width: 80%;
-    height: 80% !important;
 }
 
-img:hover {
-    transform: scale(1.1);
+.dimimg {
+    width: 90%;
+}
+
+/* position des images css */
+div.imgcss {
+    margin-left: 11%;
+}
+
+div.imgcss img {
+    display: inline-flex;
+    vertical-align: 0%;
+    padding-left: 5px;
 }
 
 .menu {
     width: 95%;
-    border-radius: 8px;
-    overflow: hidden;
 }
 
 .item {
@@ -119,10 +116,12 @@ img:hover {
 }
 
 .btn {
-    display: block;
+    display: flex;
     padding: 16px 0 16px 0;
+    border-radius: 0%;
     border-left: 5px solid black;
     background-color: rgb(204, 180, 180);
+    box-shadow: 0 7.5px 20px rgba(0, 0, 0, .5);
     text-align: left;
 }
 
@@ -163,7 +162,6 @@ img:hover {
 
 hr {
     /* trait séparateur */
-    /* margin-top: 2rem; */
     width: 85%;
     text-align: center;
 }
@@ -190,7 +188,6 @@ footer {
     position: relative;
     padding-top: 3px;
     text-align: center;
-    /* position: fixed;  */
     bottom: 0;
     height: 50px;
     width: 100%;
